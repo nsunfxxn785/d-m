@@ -1,3 +1,4 @@
+//<![CDATA[
 $(window).on('load', function() {
   $('#searchForm input').on('keyup', function(e) {
     var textinput = $(this).val()
@@ -40,3 +41,4 @@ $(window).on('load', function() {
     $('.results').empty()
   })
 })
+//]]>
